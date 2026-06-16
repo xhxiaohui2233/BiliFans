@@ -1,0 +1,8 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "general": {
+      "prompt": "请使用中文回复。所有对话、代码注释、错误提示和文档都使用中文。"
+    }
+  }
+}
