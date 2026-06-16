@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BiliFans v2.0 - B站粉丝数 Rainmeter 皮肤
 
 粉白磨砂玻璃风格，实时显示B站粉丝数据。
@@ -189,4 +188,4 @@ https://api.bilibili.com/x/web-interface/card?mid={UID}
 ## 许可 / License
 
 MIT License
->>>>>>> 1d01adc16ed2cb25c13d46bdad9f4a458a80cdf6
+
