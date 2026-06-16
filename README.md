@@ -1,27 +1,39 @@
-# BiliFans - Bilibili Fan Counter Rainmeter Skin
+# 💫 BiliFans - Bilibili Fan Counter Rainmeter Skin
 
-> 一个简洁的 Rainmeter 桌面小组件，实时显示你的 B站粉丝数、关注数和获赞数。
+> 🎯 一个简洁优雅的 Rainmeter 桌面小组件，实时显示你的 B站粉丝数、关注数和获赞数。
 >
-> A clean Rainmeter desktop widget that displays your Bilibili followers, following, and likes in real time.
+> 🎯 A clean and elegant Rainmeter desktop widget that displays your Bilibili followers, following, and likes in real time.
 
 ---
 
-## 预览 / Preview
+## ✨ 特性亮点 / Features
+
+| 🖼️ | **磨砂玻璃风格** / **Frosted Glass Style** | 粉白磨砂玻璃渐变背景，16px圆角，视觉柔和高级 |
+|-----|------|-----|
+| 🔄 | **实时数据** / **Real-time Data** | 每 30 秒自动从B站官方 API 拉取最新数据 |
+| 🎨 | **透明度可调** / **Adjustable Opacity** | 0-255 任意调节透明度，适配任何桌面背景 |
+| 🔢 | **数字简写** / **Number Abbreviation** | 支持 X.XK / X.XM / X.XB 自动简写（可开关）|
+| ⚡ | **流畅动画** / **Smooth Animation** | 数字更新时带平滑滚动动画效果 |
+| 🌐 | **自动获取用户名** / **Auto-fetch Username** | 自动从 API 获取并显示 B站用户名 |
+
+---
+
+## 👁️ 预览 / Preview
 
 ```
  [哔哩哔哩logo] 用户名     ●
  ──────────────────────────────────
-    粉丝        关注        获赞
+    粉丝         关注        获赞
      328         962       1.7K
 ```
 
-- 白色半透明背景，圆角卡片 / White translucent background with rounded corners
-- 自动获取 B站用户名 / Auto-fetches Bilibili username
-- 大数字自动简写（可选）/ Large number abbreviation (optional)
+- 🎨 粉白磨砂渐变背景，圆角卡片 / Pink-white frosted gradient, rounded card
+- 👤 自动获取 B站用户名 / Auto-fetches Bilibili username
+- 🔢 大数字自动简写（可选）/ Large number abbreviation (optional)
 
 ---
 
-## 安装 / Installation
+## 📦 安装 / Installation
 
 1. 将整个 `BiliFans` 文件夹复制到 Rainmeter 的 Skins 目录：
    Copy the `BiliFans` folder to your Rainmeter Skins directory:
@@ -37,7 +49,7 @@
 
 ---
 
-## 配置 / Configuration
+## ⚙️ 配置 / Configuration
 
 编辑 `@Resources\Variables.inc` 文件：/ Edit the `@Resources\Variables.inc` file:
 
@@ -57,7 +69,7 @@ MyFont=Microsoft YaHei UI
 AbbreviateNumbers=1
 ```
 
-### 数字简写规则 / Abbreviation Rules
+### 🔢 数字简写规则 / Abbreviation Rules
 
 | 数值范围 / Range | 格式 / Format | 示例 / Example |
 |---|---|---|
@@ -68,7 +80,7 @@ AbbreviateNumbers=1
 
 ---
 
-## 文件结构 / File Structure
+## 📁 文件结构 / File Structure
 
 ```
 BiliFans/
@@ -85,7 +97,7 @@ BiliFans/
 
 ---
 
-## 数据来源 / Data Source
+## 🌐 数据来源 / Data Source
 
 通过 B站官方 API 获取数据：/ Fetches data from the official Bilibili API:
 
@@ -93,7 +105,7 @@ BiliFans/
 https://api.bilibili.com/x/web-interface/card?mid={UID}
 ```
 
-每 60 秒自动刷新一次。/ Refreshes every 60 seconds.
+每 30 秒自动刷新一次。/ Refreshes every 30 seconds.
 
 获取的字段 / Fields fetched:
 - `name` — 用户名 / Username
@@ -103,7 +115,7 @@ https://api.bilibili.com/x/web-interface/card?mid={UID}
 
 ---
 
-## 自定义 / Customization
+## 🎨 自定义 / Customization
 
 | 项目 / Item | 文件 / File | 说明 / Description |
 |---|---|---|
@@ -117,14 +129,14 @@ https://api.bilibili.com/x/web-interface/card?mid={UID}
 
 ---
 
-## 依赖 / Requirements
+## 📋 依赖 / Requirements
 
 - [Rainmeter](https://www.rainmeter.net/) 4.0+
 - 网络连接 / Internet connection
 
 ---
 
-## 许可 / License
+## 📄 许可 / License
 
 MIT License
 
